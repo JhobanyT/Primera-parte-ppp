@@ -1,0 +1,65 @@
+<div class="row">
+    <div class="col-12 col-md-12 d-block">
+        <div class="d-flex justify-content-start">
+        <div class="col-2 col-md-2 d-inline div-section d-flex align-item-center align-content-center"><h2 class="mt-1"><i class="fa-solid fa-file-contract"></i><b>  Convenios</b></h2></div>
+        </div>
+    </div>
+</div>
+<mdb-carousel [controls]="true" [indicators]="true" >
+    <mdb-carousel-item>
+      <img
+        src="../../assets/img/ClinicaA.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <div class="texto-convenios">
+          <h2 class="letra-convenios"><b>CLINICA AMERICANA JULIACA</b></h2>
+          <p clas="introduccion-convenios">Tenemos como prioridad el bienestar de nuestros pacientes.</p>
+          <button class="btn-personalizado py-2 px-3" [routerLink]="['/clinica-americana']">Ver Más</button>
+        </div>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img
+        src="../../assets/img/cmm.png"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <div class="texto-convenios">
+          <h2 class="letra-convenios"><b>HOSPITAL "CARLOS MONGE MEDRANO" JULIACA</b></h2>
+          <p clas="introduccion-convenios">El objetivo es establecer un convenio de cooperación técnica científica y acciones interinstitucionales que favorezcan y promuevan los estilos de vida saludable.</p>
+          <button class="btn-personalizado py-2 px-3">Ver Más</button>
+        </div>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <img
+        src="../../assets/img/ugel.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <div class="texto-convenios">
+          <h2 class="letra-convenios"><b>UGEL "SAN ROMÁN" JULIACA</b></h2>
+          <p clas="introduccion-convenios">Ejercemos el servicio público maximizando nuestros conocimientos, experiencias y recursos con los que se cuentan, con el propósito de lograr la mayor satisfacción al ciudadano.</p>
+          <button class="btn-personalizado py-2 px-3" [routerLink]="['/ugel-sr']">Ver Más</button>
+        </div>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+        <img
+          src="../../assets/img/CAT.jpg"
+          class="d-block w-100"
+          alt="..."
+        />
+        <div class="carousel-caption d-none d-md-block">
+          <div class="texto-convenios">
+            <h2 class="letra-convenios"><b>COLEGIO ADVENTISTA TITICACA</b></h2>
+            <p clas="introduccion-convenios">La Educación Adventista fundamenta su filosofía en sólidos principios y valores, que se aplican diariamente en las actividades estudiantiles, a través de un sistema de enseñanza propio, con profesores calificados y consultoría pedagógica especializada.</p>
+            <button class="btn-personalizado py-2 px-3" [routerLink]="['/cat']">Ver Más</button>
+          </div>
+        </div>
+      </mdb-carousel-item>
+  </mdb-carousel>
